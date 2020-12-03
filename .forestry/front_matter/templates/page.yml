@@ -5,9 +5,9 @@ fields:
 - type: text
   name: title
   label: title
-- type: file
-  name: bg_image
-  label: bg_image
 - type: text
   name: description
   label: description
+- type: file
+  name: bg_image
+  label: bg_image
