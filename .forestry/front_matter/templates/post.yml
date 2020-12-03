@@ -5,6 +5,10 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
+    min: 
+    max: 120
 - type: text
   name: description
   label: description
@@ -12,6 +16,7 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
 - type: file
   name: image
   label: image
